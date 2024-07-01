@@ -131,13 +131,15 @@ Depending on the AI SDK and tool you want to use, you'll also need to install th
 | Service                                                                  | Client                 | Description                                                                                                                                                                                                                                                    |
 | ------------------------------------------------------------------------ | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Bing](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api)    | `BingClient`           | Bing web search.                                                                                                                                                                                                                                               |
-| [Calculator](https://github.com/silentmatt/expr-eval)                    | `calculator`           | Basic calculator for simple mathematical expressions.                                                                                                                                                                                                          |
+| [Calculator](https://github.com/josdejong/mathjs)                        | `calculator`           | Basic calculator for simple mathematical expressions.                                                                                                                                                                                                          |
 | [Clearbit](https://dashboard.clearbit.com/docs)                          | `ClearbitClient`       | Resolving and enriching people and company datae.                                                                                                                                                                                                              |
 | [Dexa](https://dexa.ai)                                                  | `DexaClient`           | Answers questions from the world's best podcasters.                                                                                                                                                                                                            |
 | [Diffbot](https://docs.diffbot.com)                                      | `DiffbotClient`        | Web page classification and scraping; person and company data enrichment.                                                                                                                                                                                      |
 | [E2B](https://e2b.dev)                                                   | `e2b`                  | Hosted Python code intrepreter sandbox which is really useful for data analysis, flexible code execution, and advanced reasoning on-the-fly.                                                                                                                   |
 | [Exa](https://docs.exa.ai)                                               | `ExaClient`            | Web search tailored for LLMs.                                                                                                                                                                                                                                  |
 | [Firecrawl](https://www.firecrawl.dev)                                   | `FirecrawlClient`      | Website scraping and sanitization.                                                                                                                                                                                                                             |
+| [HackerNews](https://github.com/HackerNews/API)                          | `HackerNewsClient`     | Official HackerNews API.                                                                                                                                                                                                                                       |
+| [Hunter](https://hunter.io)                                              | `HunterClient`         | Email finder, verifier, and enrichment.                                                                                                                                                                                                                        |
 | [Midjourney](https://www.imagineapi.dev)                                 | `MidjourneyClient`     | Unofficial Midjourney client for generative images.                                                                                                                                                                                                            |
 | [Novu](https://novu.co)                                                  | `NovuClient`           | Sending notifications (email, SMS, in-app, push, etc).                                                                                                                                                                                                         |
 | [People Data Labs](https://www.peopledatalabs.com)                       | `PeopleDataLabsClient` | People & company data (WIP).                                                                                                                                                                                                                                   |
@@ -150,6 +152,7 @@ Depending on the AI SDK and tool you want to use, you'll also need to install th
 | [SerpAPI](https://serpapi.com/search-api)                                | `SerpAPIClient`        | Lightweight wrapper around SerpAPI for Google search.                                                                                                                                                                                                          |
 | [Serper](https://serper.dev)                                             | `SerperClient`         | Lightweight wrapper around Serper for Google search.                                                                                                                                                                                                           |
 | [Slack](https://api.slack.com/docs)                                      | `SlackClient`          | Send and receive Slack messages.                                                                                                                                                                                                                               |
+| [SocialData](https://socialdata.tools)                                   | `SocialDataClient`     | Unofficial Twitter / X client (readonly) which is much cheaper than the official Twitter API.                                                                                                                                                                  |
 | [Tavily](https://tavily.com)                                             | `TavilyClient`         | Web search API tailored for LLMs.                                                                                                                                                                                                                              |
 | [Twilio](https://www.twilio.com/docs/conversations/api)                  | `TwilioClient`         | Twilio conversation API to send and receive SMS messages.                                                                                                                                                                                                      |
 | [Twitter](https://developer.x.com/en/docs/twitter-api)                   | `TwitterClient`        | Basic Twitter API methods for fetching users, tweets, and searching recent tweets. Includes support for plan-aware rate-limiting. Uses [Nango](https://www.nango.dev) for OAuth support.                                                                       |
@@ -195,14 +198,15 @@ See the [examples](./examples) directory for examples of how to use each of thes
 
 - services
   - browserbase
+  - [brave search](https://brave.com/search/api/)
   - [phantombuster](https://phantombuster.com)
   - [apify](https://apify.com/store)
   - perplexity
-  - [socialdata](https://socialdata.tools)
   - valtown
   - replicate
   - huggingface
   - [skyvern](https://github.com/Skyvern-AI/skyvern)
+  - pull from [clay](https://www.clay.com/integrations)
   - pull from [langchain](https://github.com/langchain-ai/langchainjs/tree/main/langchain)
     - provide a converter for langchain `DynamicStructuredTool`
   - pull from [nango](https://docs.nango.dev/integrations/overview)
@@ -212,6 +216,7 @@ See the [examples](./examples) directory for examples of how to use each of thes
   - market maps
 - incorporate [zod-validation-error](https://github.com/causaly/zod-validation-error)
 - investigate [autotool](https://github.com/run-llama/LlamaIndexTS/tree/main/packages/autotool)
+- investigate [alt search engines](https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/)
 - investigate [data connectors](https://github.com/mendableai/data-connectors)
 
 ## Contributors
